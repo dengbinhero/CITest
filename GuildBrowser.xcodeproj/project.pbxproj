@@ -214,6 +214,7 @@
 		CB9FDC4515E9872D00B3713E /* GuildBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				D832FF05198B959C00A717C1 /* iPad */,
 				CBAB27BE15E9B8720068516D /* view controllers */,
 				CBAB27BD15E9B83A0068516D /* views */,
 				CBAB27BB15E9B82A0068516D /* model */,
@@ -359,6 +360,13 @@
 				CB9FDD2515E9B34900B3713E /* SetttingsViewController.m */,
 			);
 			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		D832FF05198B959C00A717C1 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -612,10 +620,14 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhao Rui (BK8MW5962H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ECC5772-55C4-41C9-82EF-3E50DB013B7C";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -623,10 +635,14 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhao Rui (BK8MW5962H)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0ECC5772-55C4-41C9-82EF-3E50DB013B7C";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
