@@ -34,6 +34,8 @@ static dispatch_once_t oncePredicate;
 	return self;
 }
 
+
+
 -(void)guildWithName:(NSString *)guildName
              onRealm:(NSString *)realmName
              success:(GuildBlock)successBlock
