@@ -406,7 +406,7 @@
 			name = GuildBrowserTests;
 			productName = GuildBrowserTests;
 			productReference = CB9FDC5C15E9872E00B3713E /* GuildBrowserTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -626,7 +626,7 @@
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0ECC5772-55C4-41C9-82EF-3E50DB013B7C";
+				PROVISIONING_PROFILE = "73CA437D-430D-4A2C-A3C2-3F6E59811033";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -641,7 +641,7 @@
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0ECC5772-55C4-41C9-82EF-3E50DB013B7C";
+				PROVISIONING_PROFILE = "73CA437D-430D-4A2C-A3C2-3F6E59811033";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
